@@ -1,8 +1,8 @@
 #! /usr/bin/env python
 def run():
-    from empty_flask import app
+    from fancy_site import app
     app.run()
 
 if __name__ == "__main__":
-    from empty_flask.views.main import *
+    from fancy_site.views.main import *
     run()
